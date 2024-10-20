@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffb43851-722a-43f6-ab53-13438424a6e6" name="Changes" comment="add some fixing" />
+    <list default="true" id="ffb43851-722a-43f6-ab53-13438424a6e6" name="Changes" comment="add some fixing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/client.manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/client.manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/server/client.manifest.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/dist/server/client.manifest.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/i18n.options.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/i18n.options.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/imports.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/imports.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/manifest/latest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/manifest/latest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/nuxt-icon-server-bundle.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/nuxt-icon-server-bundle.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/nuxt.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/nuxt.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/tailwind.config.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/types/build.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/types/build.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/types/imports.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/types/imports.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/types/plugins.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/types/plugins.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +93,7 @@
       <workItem from="1729385826291" duration="1171000" />
       <workItem from="1729387059164" duration="8538000" />
       <workItem from="1729412959734" duration="303000" />
+      <workItem from="1729413413584" duration="6008000" />
     </task>
     <task id="LOCAL-00001" summary="add animation">
       <option name="closed" value="true" />

@@ -1,20 +1,13 @@
 <template>
-  <div id="navbar" :class="bg_active ? 'bg-active':''" class="fixed bg-main lg:bg-transparent duration-300 w-full z-50 top-0">
+  <div id="navbar" :class="bg_active ? 'bg-active':''" class="fixed bg-[#17254E] lg:bg-transparent duration-300 w-full z-50 top-0">
     <div class="main-navbar py-3">
       <div class="container flex-col md:flex-row flex items-center justify-between">
         <div class="flex-col lg:flex-row flex items-start lg:items-center gap-x-3 lg:gap-10 w-full lg:w-auto">
           <div
               class="flex items-center text-white justify-between w-full lg:w-auto "
               data-aos="fade-right">
-                <img class="w-28"  src="@/assets/img/logo.png">
+                <img class="w-28"  src="@/assets/img/logo-svg.svg">
                 <div class="controller flex lg:hidden items-center gap-5 md:flex" data-aos="fade-left">
-                  <ul class="flex items-center gap-3 text-white">
-                    <li>
-                      <button @click="changeLang" class="bg-golden px-4 py-2 text-white">
-                        {{ $t('lang') }}
-                      </button>
-                    </li>
-                  </ul>
                   <Icon class="text-white text-3xl cursor-pointer" @click="is_active = !is_active" v-if="is_active" name="line-md:close-small"/>
                   <Icon class="text-white text-3xl cursor-pointer" @click="is_active = !is_active" v-else name="line-md:close-to-menu-alt-transition"/>
                 </div>
@@ -39,27 +32,10 @@
             </li>
           </ul>
         </div>
-<!--        <div class="controller items-center gap-5 hidden lg:flex" data-aos="fade-left">-->
-<!--          <ul class="flex items-center gap-3 text-white">-->
-<!--            <li>-->
-<!--              <a href="https://lead.isnad-iq.com/" class="flex items-center gap-3 px-2 py-1">-->
-<!--                  <Icon class="text-xl" name="lets-icons:date-range-duotone-line" />-->
-<!--                  {{ $t('navbar.meet') }}-->
-<!--              </a>-->
-<!--            </li>-->
-<!--            <li>-->
-<!--              <a href="https://linktree.isnad-iq.com/" class="flex items-center gap-3 px-5 py-1 border-r border-l">-->
-<!--                <Icon class="text-xl" name="carbon:link" />-->
-<!--                {{ $t('social-links') }}-->
-<!--              </a>-->
-<!--            </li>-->
-<!--            <li>-->
-<!--              <button @click="changeLang" class="bg-golden px-4 py-2 text-white">-->
-<!--                {{ $t('lang') }}-->
-<!--              </button>-->
-<!--            </li>-->
-<!--          </ul>-->
-<!--        </div>-->
+        <div class="controller hidden lg:block text-white" data-aos="fade-left">
+          <span data-aos="fade-left">For More Info</span>
+          <a data-aos="fade-left" data-aos-duration="100" href="tel:+9647906974762" class="text-xl block">07906974762</a>
+       </div>
       </div>
     </div>
   </div>
