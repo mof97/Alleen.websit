@@ -1,0 +1,35 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+body {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header,
+#partners{
+    background: rgb(90,166,137);
+    background: linear-gradient(209deg, rgba(90,166,137,1) 0%, rgba(20,85,119,1) 100%);
+}
+
+#pkg img {
+    filter: brightness(.8);
+}
+
